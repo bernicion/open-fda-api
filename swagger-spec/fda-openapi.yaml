@@ -1,0 +1,149 @@
+openapi: 3.0.0
+info:
+  description: FDA management API
+  version: "1.0"
+  title: FDA management
+
+paths:
+  /drugs/search:
+    get:
+      operationId: searchDrugApplications
+      summary: Search drug application
+      description: Returns the drug applications for given criteria
+      parameters:
+        - in: query
+          name: manufactureName
+          schema:
+            type: string
+          description: FDA Manufacturer name
+          required: true
+        - in: query
+          name: fdaBrandName
+          schema:
+            type: string
+          description: Optional FDA brand name
+          required: false
+        - in: query
+          name: pageIndex
+          schema:
+            type: integer
+            default: 0
+          description: Page index
+          required: true
+        - in: query
+          name: pageSize
+          schema:
+            type: integer
+            default: 50
+          description: Page size
+          required: true
+      responses:
+        '200':
+          description: The list of recipes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/DrugRecordDto'
+        '400':
+          description: Bad Request
+        '404':
+          description: Not Found
+  /drugs:
+    post:
+      operationId: addDrugApplication
+      summary: Add a drug application
+      requestBody:
+        description: The drug application body
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DrugRecordDto'
+      responses:
+        '201':
+          description: Added drug application
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DrugRecordDto'
+        '400':
+          description: Bad Request
+        '404':
+          description: Not found
+    get:
+      operationId: getAllDrugApplications
+      summary: Get all drug applications
+      parameters:
+        - in: query
+          name: pageIndex
+          schema:
+            type: integer
+            default: 0
+          description: Page index
+          required: false
+        - in: query
+          name: pageSize
+          schema:
+            type: integer
+            default: 50
+          description: Page size
+          required: false
+      responses:
+        '200':
+          description: The list of drug applications
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/DrugRecordDto'
+        '400':
+          description: Bad Request
+        '404':
+          description: Not Found
+  /drugs/{appNumber}:
+    get:
+      operationId: getDrugApplicationByAppNumber
+      summary: Get a drug application
+      description: Gets a drug application by manufacturer name
+      parameters:
+        - in: path
+          name: appNumber
+          schema:
+            type: string
+          description: Manufacturer name of the drug application
+          required: true
+      responses:
+        '200':
+          description: Returns the drug application by manufacturer name
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DrugRecordDto'
+        '204':
+          description: No drug application found for given manufacturer name
+        '400':
+          description: Bad request
+        '404':
+          description: Not found
+components:
+  schemas:
+    DrugRecordDto:
+      type: object
+      properties:
+        appNumber:
+          type: string
+          example: ANDA088551
+        manufacturerName:
+          type: string
+          example: Taro Pharmaceuticals U.S.A., Inc.
+        substances:
+          type: array
+          items:
+            type: string
+        productNumbers:
+          type: array
+          items:
+            type: string

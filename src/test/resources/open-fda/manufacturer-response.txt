@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2022-10-18",
+    "results": {
+      "skip": 0,
+      "limit": 50,
+      "total": 189
+    }
+  },
+  "results": [
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "19980714",
+          "application_docs": [
+            {
+              "id": "42894",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/anda/98/74904ap.pdf",
+              "date": "19980714",
+              "type": "Review"
+            },
+            {
+              "id": "8461",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/1998/74904ltr.pdf",
+              "date": "19980714",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "8",
+          "submission_status": "AP",
+          "submission_status_date": "20041123",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "15",
+          "submission_status": "AP",
+          "submission_status_date": "20120105",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "18371",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2012/074904Orig1s015Lbl.pdf",
+              "date": "20150826",
+              "type": "Label"
+            },
+            {
+              "id": "30713",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/074904Orig1s015ltr.pdf",
+              "date": "20150827",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "2",
+          "submission_status": "AP",
+          "submission_status_date": "19990409",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "7",
+          "submission_status": "AP",
+          "submission_status_date": "20031219",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "5",
+          "submission_status": "AP",
+          "submission_status_date": "20030724",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "3",
+          "submission_status": "AP",
+          "submission_status_date": "19991104",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "19990407",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)"
+        }
+      ],
+      "application_number": "ANDA074904",
+      "sponsor_name": "TARO PHARM INDS LTD",
+      "openfda": {
+        "application_number": [
+          "ANDA074904"
+        ],
+        "brand_name": [
+          "TOPICORT",
+          "DESOXIMETASONE"
+        ],
+        "generic_name": [
+          "DESOXIMETASONE"
+        ],
+        "manufacturer_name": [
+          "Taro Pharmaceuticals U.S.A., Inc."
+        ],
+        "product_ndc": [
+          "51672-5202",
+          "51672-5205",
+          "51672-5204",
+          "51672-1261",
+          "51672-1271",
+          "51672-1270"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "TOPICAL"
+        ],
+        "substance_name": [
+          "DESOXIMETASONE"
+        ],
+        "rxcui": [
+          "94345",
+          "94346",
+          "197573",
+          "197574",
+          "315059",
+          "891631"
+        ],
+        "spl_id": [
+          "49cfa6c5-ce19-435b-aede-8597d8152eb5",
+          "8febf251-2b84-4473-90ee-943b8b4380e3"
+        ],
+        "spl_set_id": [
+          "1a1be0fb-c238-4990-bd48-03096bbf6052",
+          "37eb1205-1743-4480-8631-b0bbcaeb8359"
+        ],
+        "package_ndc": [
+          "51672-5205-5",
+          "51672-5205-1",
+          "51672-5205-3",
+          "51672-5205-7",
+          "51672-5204-5",
+          "51672-5204-1",
+          "51672-5204-3",
+          "51672-5204-7",
+          "51672-5202-5",
+          "51672-5202-1",
+          "51672-5202-2",
+          "51672-5202-3",
+          "51672-1271-1",
+          "51672-1271-2",
+          "51672-1271-3",
+          "51672-1271-7",
+          "51672-1270-1",
+          "51672-1270-2",
+          "51672-1270-3",
+          "51672-1270-7",
+          "51672-1261-1",
+          "51672-1261-2",
+          "51672-1261-3"
+        ],
+        "nui": [
+          "N0000175576",
+          "N0000175450"
+        ],
+        "pharm_class_epc": [
+          "Corticosteroid [EPC]"
+        ],
+        "pharm_class_moa": [
+          "Corticosteroid Hormone Receptor Agonists [MoA]"
+        ],
+        "unii": [
+          "4E07GXB7AU"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "TOPICORT",
+          "active_ingredients": [
+            {
+              "name": "DESOXIMETASONE",
+              "strength": "0.05%"
+            }
+          ],
+          "reference_standard": "Yes",
+          "dosage_form": "GEL",
+          "route": "TOPICAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "2",
+          "submission_status": "AP",
+          "submission_status_date": "20150406",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)"
+        },
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20110520",
+          "submission_class_code": "N/A",
+          "submission_class_code_description": "Not Applicable"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20110707",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        }
+      ],
+      "application_number": "ANDA201546",
+      "sponsor_name": "TARO",
+      "openfda": {
+        "application_number": [
+          "ANDA201546"
+        ],
+        "brand_name": [
+          "CHILDRENS ALLERGY",
+          "ALLERGY RELIEF",
+          "WAL-ZYR ALL DAY ALLERGY",
+          "CHILDRENS ALLERGY RELIEF",
+          "CHILDRENS CETIRZINE",
+          "CHILDRENS CETIRIZINE HYDROCHLORIDE SUGAR FREE BUBBLE GUM",
+          "CETIRIZINE HYDROCHLORIDE",
+          "ALL DAY ALLERGY",
+          "RITE AID CHILDRENS ALLERGY RELIEF"
+        ],
+        "generic_name": [
+          "CETIRIZINE HYDROCHLORIDE"
+        ],
+        "manufacturer_name": [
+          "Publix Super Markets Inc",
+          "H E B",
+          "WALGREEN COMPANY",
+          "Wal-Mart Stores Inc",
+          "Pharmacy Value Alliance LLC",
+          "TARO PHARMACEUTICALS U.S.A., INC.",
+          "Taro Pharmaceuticals U.S.A., Inc.",
+          "Amerisource Bergen",
+          "Rite Aid Corporation"
+        ],
+        "product_ndc": [
+          "56062-106",
+          "37808-106",
+          "0363-2106",
+          "49035-106",
+          "68016-106",
+          "51672-2148",
+          "51672-2106",
+          "46122-101",
+          "11822-2106"
+        ],
+        "product_type": [
+          "HUMAN OTC DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "CETIRIZINE HYDROCHLORIDE"
+        ],
+        "rxcui": [
+          "1014673",
+          "1482533"
+        ],
+        "spl_id": [
+          "45637c21-0eef-4f25-a346-2598812d40ef",
+          "3e05caf8-84cf-478f-9401-762f51c9e796",
+          "236ed4fb-cea6-468a-9a9c-10e346533690",
+          "26f1efff-e30b-4c6b-b1d1-51be507fbef1",
+          "51b02412-ebbd-4045-8af4-4b8b8e90daf4",
+          "137524f7-318b-4772-9ce7-97593c7ad2a7",
+          "37a18ea9-4178-4252-b094-aac4318d929b",
+          "659426e2-438c-40c1-8bb6-bb036168f8b6",
+          "0ac042b2-2867-48a4-b96c-04a214e18af4"
+        ],
+        "spl_set_id": [
+          "9a8b5af0-72bb-48d5-bb5e-0dc6808bf466",
+          "fdd3f9a0-b4be-498a-b8e0-1a9740399736",
+          "4ce79791-748a-49d0-af34-73f589670d3f",
+          "0d026538-5708-4030-b65d-18790e72059a",
+          "6b22f568-7ebd-4479-b764-6e5481d8c15a",
+          "69a63e8c-e225-4556-873e-9e5eb18c82f0",
+          "67207357-5f8a-4424-9901-d2717a43cf1b",
+          "6ce39876-47bf-4147-885d-4eb0aeb66fd0",
+          "edbefbee-26b6-46bc-abcc-f7b2817705e5"
+        ],
+        "package_ndc": [
+          "56062-106-08",
+          "37808-106-08",
+          "0363-2106-08",
+          "0363-2106-01",
+          "49035-106-08",
+          "68016-106-08",
+          "51672-2148-8",
+          "51672-2148-1",
+          "51672-2106-8",
+          "51672-2106-1",
+          "51672-2106-4",
+          "46122-101-26",
+          "11822-2106-8"
+        ],
+        "unii": [
+          "64O047KTOA"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "002",
+          "reference_drug": "No",
+          "brand_name": "CHILDREN'S CETIRIZINE HYDROCHLORIDE HIVES RELIEF",
+          "active_ingredients": [
+            {
+              "name": "CETIRIZINE HYDROCHLORIDE",
+              "strength": "5MG/5ML"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "SYRUP",
+          "route": "ORAL",
+          "marketing_status": "Over-the-counter"
+        },
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "CHILDREN'S CETIRIZINE HYDROCHLORIDE ALLERGY",
+          "active_ingredients": [
+            {
+              "name": "CETIRIZINE HYDROCHLORIDE",
+              "strength": "5MG/5ML"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "SYRUP",
+          "route": "ORAL",
+          "marketing_status": "Over-the-counter"
+        }
+      ]
+    }
+  ]
+}
